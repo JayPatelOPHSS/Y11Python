@@ -1,0 +1,9 @@
+day=str(input("is it raining right now")).lower()
+if day == "yes":
+    windy=str(input("is it windy right now")).lower()
+    if windy == "yes":
+        print("dont take an umbrella")
+    else:
+        print("take an umbrella")
+else:
+    print("no need for an umbrella")
