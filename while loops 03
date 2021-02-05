@@ -1,0 +1,5 @@
+total=0
+while total<5:
+    total=int(input("Enter a number"))
+
+print("The last number you enetered was,",total)
