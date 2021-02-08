@@ -1,0 +1,6 @@
+counter=1
+number=int(input("enter a number between 1 and 12"))
+for i in range(number):
+    tables=number*counter
+    counter=counter+1
+    print(tables)
