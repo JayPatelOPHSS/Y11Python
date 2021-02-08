@@ -1,0 +1,16 @@
+bottles=10
+song=" there are",bottles,"hanging on the wall",bottles,"hanging on the wall and if one green bottle shoudl accidently fall"
+print(song)
+new=int(input(" \n how many bottles do you think are left"))
+bottles=bottles-1
+
+while bottles>0:
+    if new==bottles:
+        print(" there will be,",bottles,"hanging on the wall")
+        new=int(input("\nhow many bottles do you think are left"))
+        bottles=bottles-1
+    elif new!=bottles:
+        while new != bottles:
+            print("please retry")
+            new=int(input("how many bottles do you think are left"))
+            
