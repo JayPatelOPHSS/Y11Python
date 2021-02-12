@@ -1,0 +1,7 @@
+rhyme=str(input("enter the first line of a nursery line"))
+length=len(rhyme)
+print("this has",length,"letters in it")
+start=int(input("enter a start number"))
+end=int(input("enter a end number"))
+sliced=rhyme[start:end]
+print(sliced)
