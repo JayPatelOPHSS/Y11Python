@@ -1,0 +1,9 @@
+direction=str(input("enter the direction you want to go u= up, d=down")).lower()
+if direction=="u":
+    topnum=int(input("enter your top number"))
+    for i in range(1,topnum+1):
+        print(i)
+elif direction=="d":
+    bottnum=int(input("enter a number less then 20"))
+    for i in range(20,bottnum-1,-1):
+        print(i)
