@@ -1,0 +1,8 @@
+first=str(input("Enter your firstname"))
+length=len(first)
+if length<5:
+    last=str(input("Enter your lastname"))
+    first=first.upper()
+    print(first)
+else:
+    print(first.lower())
