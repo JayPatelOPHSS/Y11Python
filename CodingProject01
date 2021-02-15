@@ -1,0 +1,25 @@
+print("League registration")
+
+
+check="N"
+
+while check== "N":
+    first=str(input("Please enter your first name: "))
+    last=str(input("Please enter your last name: "))
+    nick=str(input("Please enter your nickname: "))
+    email=str(input("Please enter your email address: "))
+    skill=str(input("Please enter your skill level(E for expert and C for casual): ")).upper()
+    print("Full name: ",first,last)
+    print("Nickname: ",nick)
+    print("Email address: ",email)
+    if skill == "E":
+        print("Skill level: Expert")
+    elif skill == "C":
+        print("Skill level: Causal")
+    check=str(input("Is all information correct( y for yes and n for no): ")).upper()
+    if check =="Y":
+        print("Thank you")
+        break
+    elif check=="N":
+        print("Please retry")
+  
