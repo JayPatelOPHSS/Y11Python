@@ -1,0 +1,42 @@
+fee=10
+expert=45
+casual=20
+
+print("\nWelcome to the League, lets calculate your entry fee!")
+emailadd=str(input("Please enter your email address"))
+while emailadd!=email:
+    print("email is wrong,please try again")
+    emailadd=str(input("Please re-enter your email address"))
+
+currency=str(input('''\nChoose one of the following currency you would like to pay with:
+a=USD
+b=AUD
+c=GBP''')).lower()
+
+
+
+
+if currency=="a" and skill=="E":
+    a=1.5
+    price=a*skill
+    print(price,"USD")
+elif currency=="b" and skill=="E":
+    b=2
+    price=b*expert
+    print(price,"AUD")
+elif currency=="c" and skill=="E":
+    c=1
+    price=c*expert
+    print("£",price)
+elif currency=="a" and skill=="C":
+    a=1.5
+    price=a*skill
+    print(price,"USD")
+elif currency=="b" and skill=="C":
+    b=2
+    price=b*expert
+    print(price,"AUD")
+elif currency=="c" and skill=="C":
+    c=1
+    price=c*expert
+    print("£",price)
