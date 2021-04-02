@@ -1,3 +1,4 @@
+#Selection4
 colour=str(input("enter your favourite colour")).upper()
 if colour=="RED":
   print("i love red too")
