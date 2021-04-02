@@ -1,3 +1,4 @@
+#Stringslicing05
 word=str(input("enter a word"))
 uppercase=word.upper()
 print(uppercase)
