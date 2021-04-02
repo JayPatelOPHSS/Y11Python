@@ -1,3 +1,4 @@
+#Selection4
 day=str(input("is it raining right now")).lower()
 if day == "yes":
     windy=str(input("is it windy right now")).lower()
