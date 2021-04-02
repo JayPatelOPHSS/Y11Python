@@ -1,3 +1,4 @@
+#WHILE01
 total=0
 while total<=50:
     inputnum=int(input("enter a number"))
