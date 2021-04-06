@@ -1,3 +1,4 @@
+#while07
 bottles=10
 song=" there are",bottles,"hanging on the wall",bottles,"hanging on the wall and if one green bottle shoudl accidently fall"
 print(song)
