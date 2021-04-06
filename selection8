@@ -1,3 +1,4 @@
+#selection8
 num=int(input("enter a number 1,2,3"))
 if num==1:
     print("thanks")
