@@ -1,3 +1,4 @@
+#while loops 03
 total=0
 while total<5:
     total=int(input("Enter a number"))
