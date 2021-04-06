@@ -1,3 +1,4 @@
+#for03
 name=str(input("enter your name"))
 for i in name:
     print(i)
