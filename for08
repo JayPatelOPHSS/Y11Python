@@ -1,3 +1,4 @@
+for08
 direction=str(input("enter the direction you want to go u= up, d=down")).lower()
 if direction=="u":
     topnum=int(input("enter your top number"))
