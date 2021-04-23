@@ -1,4 +1,5 @@
 #Stringslicing06
+#JayP
 first=str(input("Enter your firstname"))
 length=len(first)
 if length<5:
