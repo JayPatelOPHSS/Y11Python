@@ -1,4 +1,5 @@
 #Stringslicing04
+#JayP
 rhyme=str(input("enter the first line of a nursery line"))
 length=len(rhyme)
 print("this has",length,"letters in it")
