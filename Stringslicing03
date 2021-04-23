@@ -1,4 +1,5 @@
 Stringslicing03
+#JayP
 first=str(input("Enter your firstname")).lower()
 last=str(input("Etner your last name")).lower()
 print(first," ",last)
