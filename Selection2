@@ -1,4 +1,5 @@
 #Selection2
+#JayP
 num=int(input("enter a number less then 20"))
 if num>=20:
   print("to high")
