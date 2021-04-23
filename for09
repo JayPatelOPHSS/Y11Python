@@ -1,4 +1,5 @@
 for09
+#JayP
 people=int(input("how many people do you want to invite to your party"))
 if people<10:
     for i in range(1,11):
