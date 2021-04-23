@@ -1,4 +1,5 @@
 #Stringslicing02
+#JayP
 first=str(input("Enter your firstname"))
 last=str(input("Etner your last name"))
 full=first+" "+last
