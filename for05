@@ -1,4 +1,5 @@
 #for03
+#JayP
 counter=1
 number=int(input("enter a number between 1 and 12"))
 for i in range(number):
