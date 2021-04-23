@@ -1,4 +1,5 @@
 #while02
+#JayP
 num1=int(input("Enter your first number"))
 total=num1
 y="y"
