@@ -1,4 +1,5 @@
 #while05
+#JayP
 compnum=50
 guess=int(input("Enter a number"))
 count=1
